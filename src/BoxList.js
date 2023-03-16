@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const BoxList = () => {
     const INITIAL_state = [
-        {color: "blue",width:200,height:200,id:uuidv4()}
+    
     ];
 
     const [square, setSquare] = useState(INITIAL_state);
